@@ -1,9 +1,4 @@
-import express from "express";
-import { config } from 'dotenv';
-config();
-const app = express();
-// Middleware
-app.use(express.json());
+import app from "./app.js";
 // Connections and Listeners
 app.listen(5000, () => console.log('Server Open'));
 //# sourceMappingURL=index.js.map
